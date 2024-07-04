@@ -1,0 +1,15 @@
+﻿@page "/version"
+
+<h3>Application Version</h3>
+
+<p>Current version: @currentVersion</p>
+
+@code {
+    private string currentVersion;
+
+    protected override void OnInitialized()
+    {
+        // Get the current version from a configuration file or hard-coded value
+        currentVersion = "SyntodMed Version 3.0.0"; // Update this value with the current version
+    }
+}

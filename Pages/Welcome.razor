@@ -1,0 +1,9 @@
+﻿@page "/welcome"
+@inject IUserService UserService
+@using PWAblazorLoginAndRegister.Services
+
+<h2>Welcome @UserService.Username</h2>
+@* <p>You are successfully logged in as:</p>
+<p>@UserService.Username</p> *@
+
+<a href="/" class="btn btn-primary">Logout</a>
