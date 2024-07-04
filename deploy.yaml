@@ -24,9 +24,9 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git clone --branch gh-pages https://github.com/Jaishakthi05/test_blazor_app gh-pages
-          rsync -av --delete test_blazor_app/wwwroot/ gh-pages/
-          cd gh-pages
+          git clone --branch main https://github.com/Jaishakthi05/test_blazor_app main
+          rsync -av --delete test_blazor_app/wwwroot/ main/
+          cd main
           git add .
           git commit -m 'Deploy Blazor PWA'
-          git push origin gh-pages
+          git push origin main
