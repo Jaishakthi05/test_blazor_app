@@ -1,4 +1,4 @@
-name: test_blazor_app and Deploy Blazor PWA
+name: Deploy Blazor PWA
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main  # Ensure this matches your default branch
 
 jobs:
-  test_blazor_app:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -15,18 +15,23 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: 8.0.302 # Ensure this matches your project requirements
+          dotnet-version: 6.0.x  # Ensure this matches your project requirements
 
-      - name: test_blazor_app project
-        run: dotnet publish -c Release -o test_blazor_app  # Ensure this path matches your test_blazor_app output
+      - name: Build Blazor PWA
+        run: dotnet publish -c Release -o build  # Build your Blazor app into build directory
 
       - name: Deploy to GitHub Pages
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git clone --branch gh-pages https://github.com/Jaishakthi05/test_blazor_app gh-pages
-          rsync -av --delete test_blazor_app/wwwroot/ gh-pages/
-          cd gh-pages
+          
+          # Initialize gh-pages branch if not already
+          git checkout -B gh-pages
           git add .
           git commit -m 'Deploy Blazor PWA'
-          git push origin gh-pages
+          
+          # Sync build output to gh-pages branch
+          rsync -av --delete build/wwwroot/ .
+
+          # Push changes to gh-pages branch
+          git push --force origin gh-pages
