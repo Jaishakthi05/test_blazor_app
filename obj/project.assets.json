@@ -2065,11 +2065,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PWAblazorLoginAndRegister-1\\PWAblazorLoginAndRegister\\PWAblazorLoginAndRegister.csproj",
+      "projectUniqueName": "C:\\Users\\Jaishakthi S\\OneDrive\\Desktop\\test_blazor2\\test_blazor_app\\PWAblazorLoginAndRegister.csproj",
       "projectName": "PWAblazorLoginAndRegister",
-      "projectPath": "D:\\PWAblazorLoginAndRegister-1\\PWAblazorLoginAndRegister\\PWAblazorLoginAndRegister.csproj",
+      "projectPath": "C:\\Users\\Jaishakthi S\\OneDrive\\Desktop\\test_blazor2\\test_blazor_app\\PWAblazorLoginAndRegister.csproj",
       "packagesPath": "C:\\Users\\Jaishakthi S\\.nuget\\packages\\",
-      "outputPath": "D:\\PWAblazorLoginAndRegister-1\\PWAblazorLoginAndRegister\\obj\\",
+      "outputPath": "C:\\Users\\Jaishakthi S\\OneDrive\\Desktop\\test_blazor2\\test_blazor_app\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

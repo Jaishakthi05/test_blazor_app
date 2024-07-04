@@ -13,47 +13,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = PWAblazorLoginAndRegister
 build_property.RootNamespace = PWAblazorLoginAndRegister
-build_property.ProjectDir = D:\PWAblazorLoginAndRegister-1\PWAblazorLoginAndRegister\
+build_property.ProjectDir = C:\Users\Jaishakthi S\OneDrive\Desktop\test_blazor2\test_blazor_app\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\PWAblazorLoginAndRegister-1\PWAblazorLoginAndRegister
+build_property.MSBuildProjectDirectory = C:\Users\Jaishakthi S\OneDrive\Desktop\test_blazor2\test_blazor_app
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/PWAblazorLoginAndRegister-1/PWAblazorLoginAndRegister/App.razor]
+[C:/Users/Jaishakthi S/OneDrive/Desktop/test_blazor2/test_blazor_app/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PWAblazorLoginAndRegister-1/PWAblazorLoginAndRegister/Pages/Counter.razor]
+[C:/Users/Jaishakthi S/OneDrive/Desktop/test_blazor2/test_blazor_app/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PWAblazorLoginAndRegister-1/PWAblazorLoginAndRegister/Pages/Home.razor]
+[C:/Users/Jaishakthi S/OneDrive/Desktop/test_blazor2/test_blazor_app/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PWAblazorLoginAndRegister-1/PWAblazorLoginAndRegister/Pages/Version.razor]
+[C:/Users/Jaishakthi S/OneDrive/Desktop/test_blazor2/test_blazor_app/Pages/Version.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVyc2lvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PWAblazorLoginAndRegister-1/PWAblazorLoginAndRegister/Pages/Weather.razor]
+[C:/Users/Jaishakthi S/OneDrive/Desktop/test_blazor2/test_blazor_app/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PWAblazorLoginAndRegister-1/PWAblazorLoginAndRegister/Pages/Welcome.razor]
+[C:/Users/Jaishakthi S/OneDrive/Desktop/test_blazor2/test_blazor_app/Pages/Welcome.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VsY29tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PWAblazorLoginAndRegister-1/PWAblazorLoginAndRegister/_Imports.razor]
+[C:/Users/Jaishakthi S/OneDrive/Desktop/test_blazor2/test_blazor_app/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PWAblazorLoginAndRegister-1/PWAblazorLoginAndRegister/Layout/MainLayout.razor]
+[C:/Users/Jaishakthi S/OneDrive/Desktop/test_blazor2/test_blazor_app/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-09h2upoute
 
-[D:/PWAblazorLoginAndRegister-1/PWAblazorLoginAndRegister/Layout/NavMenu.razor]
+[C:/Users/Jaishakthi S/OneDrive/Desktop/test_blazor2/test_blazor_app/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-myduaooe3h
