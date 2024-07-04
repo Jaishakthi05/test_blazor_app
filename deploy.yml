@@ -1,0 +1,32 @@
+name: Build and Deploy Blazor PWA
+
+on:
+  push:
+    branches:
+      - main  # Ensure this matches your default branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 6.0.x  # Ensure this matches your project requirements
+
+      - name: Build project
+        run: dotnet publish -c Release -o build  # Ensure this path matches your build output
+
+      - name: Deploy to GitHub Pages
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git clone --branch gh-pages https://github.com/Jaishakthi05/test_blazor_app gh-pages
+          rsync -av --delete build/wwwroot/ gh-pages/
+          cd gh-pages
+          git add .
+          git commit -m 'Deploy Blazor PWA'
+          git push origin gh-pages
