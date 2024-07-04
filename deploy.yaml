@@ -15,7 +15,7 @@ jobs:
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: 6.0.x  # Ensure this matches your project requirements
+          dotnet-version: 8.0.302 # Ensure this matches your project requirements
 
       - name: test_blazor_app project
         run: dotnet publish -c Release -o test_blazor_app  # Ensure this path matches your test_blazor_app output
